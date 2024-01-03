@@ -47,39 +47,34 @@
         </div>
       </nav>
     </header>
+  </div>
 
-    <div class="container">
-      <div class="login-box">
-        <div class="ID">
-          <h2>ID Login</h2>
-        </div>
-        <!-- <h2>Another login</h2> -->
-        <form>
-          <input type="text" id="username" name="username" required>
-
-          <input type="password" id="password" name="password" required>
-
-          <div class="continue">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-              <g fill="#948642">
-                <path d="M10.243 16.314L6 12.07l1.414-1.414l2.829 2.828l5.656-5.657l1.415 1.415z"></path>
-                <path fill-rule="evenodd"
-                  d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12m11 9a9 9 0 1 1 0-18a9 9 0 0 1 0 18"
-                  clip-rule="evenodd"></path>
-              </g>
-            </svg>
-            <strong>로그인 상태 유지</strong>
-          </div>
-
-          <button class="log" type="submit">Login</button>
-        </form>
-        <div class="join">
-          <strong>비밀번호 찾기</strong>
-          <strong>아이디 | 비밀번호 찾기</strong>
-          <strong>회원가입</strong>
-        </div>
-      </div>
+  <!-- 로그인 -->
+  <div class="Mem">
+    <h2>로그인</h2>
+    <div class="MemSet">
+      <label for="username">ID </label>
+      <input type="text" id="username" name="username">
+      <div class="MS"></div>
+      <label for="password">PW </label>
+      <input type="password" id="password" name="password">
+      <div class="MS"></div>
     </div>
+    <input type="checkbox" id="myCheckbox">
+    <label for="myCheckbox">아이디 저장</label>
+    <input type="checkbox" id="myCheckbox">
+    <label for="myCheckbox">자동로그인</label>
+  </div>
+  <div class="SS"></div>
+  <div class="info">
+    <a href="Membership.html">회원가입</a></p>
+    <a href="FindID.html">아이디찾기</a></p>
+    <a href="FindPassword.html">비밀번호찾기</a></p>
+  </div>
+  <div class="btn">
+    <button type="button" id="cancelButton">로그인</button>
+  </div>
+  <div class="SS"></div>
 </body>
 
 </html>

@@ -170,56 +170,7 @@
   <div class="cart">
     <div class="separator"></div>
     <h2>장바구니</h2>
-    <ul class="step">
-      <li class="step1 on">장바구니</li>
-      <li class="step2">주문/결제</li>
-      <li class="step3">주문완료</li>
-    </ul>
 
-    <div class="left">
-      <div class="order-list">
-        <form class="goods-form"></form><!-- 삭제금지 -->
-        <input type="hidden" name="promotion_state" value="">
-        <div class="table-basic">
-          <table>
-            <caption>장바구니</caption>
-            <colgroup>
-              <col style="width:7%">
-              <col style="width:56%">
-              <col style="width:13%">
-              <col style="width:14%">
-              <col style="width:10%">
-            </colgroup>
-            <thead>
-              <tr>
-                <th scope="col">
-                  <span class="cs-form round">
-                    <input type="checkbox" id="allCheck" checked=""
-                      onclick="GoodsProc.cart_get_price_all('.cartIdxs')"><label for="allCheck">선택</label>
-                  </span>
-                </th>
-                <th scope="col">주문상품정보</th>
-                <th scope="col">수량</th>
-                <th scope="col">가격</th>
-                <th scope="col">&nbsp;</th>
-              </tr>
-            </thead>
-            <tbody>
-            </tbody>
-          </table>
-        </div>
-        <ul class="btnbox right">
-          <li><button type="button" class="btn-s-black" onclick="MemberProc.choose_del();"><span>선택상품 삭제</span></button>
-          </li>
-          <li><button type="button" class="btn-s-black" onclick="MemberProc.cart_all_del();"><span>전체상품
-                삭제</span></button></li>
-        </ul>
-        <ul class="dash-list">
-          <li><strong>장바구니, 좋아요</strong> 보관기간은 <span>1개월</span>입니다.</li>
-          <li>할인기간이 끝났을 경우 가격이 자동으로 정상가로 변경됩니다.</li>
-        </ul>
-      </div>
-    </div>
   </div>
 
 </body>
